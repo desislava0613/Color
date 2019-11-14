@@ -3,7 +3,7 @@
 title: Color Variables
 email: des@example.com
 description: hi
-baseurl: "" 
+baseurl: "/color" 
 url: ""
 twitter_username: des
 github_username:  des
@@ -14,15 +14,15 @@ destination: docs
 plugins:
   - jekyll-feed
 
-
-#  exclude:
-#  - .sass-cache/
-#  - .jekyll-cache/
-#  - gemfiles/
-#  - Gemfile
-#  - Gemfile.lock
-# - node_modules/
-# - vendor/bundle/
-# - vendor/cache/
-# - vendor/gems/
-# - vendor/ruby/
+exclude:
+  - docs
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
