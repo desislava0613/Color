@@ -1,3 +1,12 @@
+:root {
+    --font-size: 18px;
+    --font-line-height: 1.5;
+    --font-family-body: Verdana, sans-serif;
+
+    --layout-width: 65em;
+}
+
+
 body {
     color: #275468;
 }

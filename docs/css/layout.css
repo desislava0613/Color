@@ -9,13 +9,15 @@
 
 html {
     box-sizing: border-box;
+    font-size: var(--font-size, 16px);
+    line-height: var(--font-line-height, 1.5);
+    font-family: var(--font-family-body, Verdana, sans-serif);
 }
 
 
 body {
-    max-width: 60em;
+    max-width: var(--layout-width, 60em);
     margin: 0 auto;
-    font: 16px/1.5 Verdana, sans-serif;
 }
 
 .site-section {
